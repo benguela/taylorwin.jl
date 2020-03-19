@@ -1,7 +1,47 @@
-# taylorwin.jl
-Julia implementation of Taylor Window for Digital Signal Processing
+# Taylor Window Julia Implementation
 
-## What I learnt
+Taylow Window implementation in Julia
 
-* Applying functions to arrays element wise
+A small project I used to learn Julia. The code is not yet optimised for performance but hopefully it's readable. 
+
+It's a port of this javascript implementation https://github.com/fasiha/taylorwin.js
+
+
+## Getting started
+
+```
+julia> include("src/taylorwin.jl")
+taylorwin (generic function with 1 method)
+
+julia> n = 10 #number of Taylor coefficients
+10
+
+julia> nbar = 5 #number of constant sidelobes
+5
+
+julia> sll = -25 #peak sidelobe level
+-25
+
+julia> taylorwin(n,nbar,sll)
+10-element Array{Float64,1}:
+ 0.5808633750039796
+ 0.7224112904521843
+ 1.0205726892009739
+ 1.2683173314484133
+ 1.407835313894449 
+ 1.407835313894449 
+ 1.2683173314484133
+ 1.0205726892009739
+ 0.7224112904521843
+ 0.5808633750039796
+
+```
+
+## Running the tests
+
+```
+julia --project=@. --compiled-modules=no test/runtests.jl
+```
+
+
 
