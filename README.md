@@ -6,6 +6,12 @@ A small project I used to learn Julia. The code is not yet optimised for perform
 
 It's a port of this javascript implementation https://github.com/fasiha/taylorwin.js
 
+## What I Learnt
+
+* Julia Syntaxe
+* Develpment using Visual Studio Code on Linux
+* Taylor Windowing Algorythm for Signal Processing
+
 
 ## Getting started
 
