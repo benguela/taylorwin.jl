@@ -8,8 +8,8 @@ It's a port of this javascript implementation https://github.com/fasiha/taylorwi
 
 ## What I Learnt
 
-* Julia Syntaxe
-* Develpment using Visual Studio Code on Linux
+* Julia Syntax
+* Development using Visual Studio Code on Linux
 * Taylor Windowing Algorythm for Signal Processing
 
 
